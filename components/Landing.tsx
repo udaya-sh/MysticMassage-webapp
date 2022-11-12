@@ -16,7 +16,9 @@ export default function Landing() {
         </h1>
 
         <div className="space-x-3   ">
-          <Button title=" Meet Our Therapists" />
+          <a href="/#therapists">
+            <Button title=" Meet Our Therapists" />
+          </a>
           {/* <a className=" text-color link font-serif mt-11 ">
             Meet Our Therapists{" "}
           </a> */}

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React, { useState } from "react";
-import Button from "./Button";
+import Button from "../components/Button";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {

@@ -9,7 +9,7 @@ import "swiper/css";
 import About from "../components/About";
 import Therapists from "../components/Therapists";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import Contact from "../components/Contact";
+import Contact from "./Contact";
 
 interface Props {
   posts: Post[];
@@ -48,7 +48,6 @@ export default function ({ posts }: Props) {
         <About />
       </section>
       <Therapists posts={posts} />
-      <Contact></Contact>
     </div>
   );
 }
