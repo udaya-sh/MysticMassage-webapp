@@ -23,7 +23,6 @@ export default function ({ posts }: Props) {
           name="description"
           content="Online massage services in London. Mystical massage service in London with excellent services of therapist with ecperstise in healing. "
         />
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
         <title>Mystic Massage London</title>
         <link rel="icon" href="/logo-color.svg" />
