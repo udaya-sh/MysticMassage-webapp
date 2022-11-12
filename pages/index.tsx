@@ -9,7 +9,6 @@ import "swiper/css";
 import About from "../components/About";
 import Therapists from "../components/Therapists";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
-import Contact from "./Contact";
 
 interface Props {
   posts: Post[];
