@@ -22,7 +22,7 @@ const Therapists = ({ posts }: Props) => {
         </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-3 md:gap-6 p-2 md:p-6 ">
           {posts.map((post) => (
-            <div className=" w-[580px] md:hover:scale-105 transition-transform duration-200 ease-in-out md:mr-20 md:mb-10 md:hover:border-[1px] border-[#E65728] rounded-lg cursor-pointer overflow-hidden">
+            <div className=" md:w-[580px] md:hover:scale-105 transition-transform duration-200 ease-in-out md:mr-20 md:mb-10 md:hover:border-[1px] border-[#E65728] rounded-lg cursor-pointer overflow-hidden">
               <Swiper spaceBetween={50} slidesPerView={1}>
                 {post.poster.map((resource, index) => {
                   return (
