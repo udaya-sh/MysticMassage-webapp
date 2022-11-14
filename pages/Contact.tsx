@@ -11,6 +11,7 @@ const Contact = () => {
       id="contact"
       className="relative z-40 -mt-[0vh] min-h-screen text-color  space-y-10 py-16  md:px-[300px] bg-[#252422] "
     >
+      <div className="bg-[#e0ab41]"></div>
       <div className="max-w-[1240px] gap-8 text-color ">
         <h1 className="text-[50px] py-4 my-4 primary-color uppercase ">
           Contact
@@ -78,17 +79,6 @@ const Contact = () => {
             <p>Company number: +44 7495 094691 </p>
           </div>
         </div>
-      </div>
-
-      <div className="flex justify-center py-12 ">
-        <Link href="/">
-          <div className=" cursor-pointer rounded-full shadow-lg shadow-orange-400 cursor pointer hover:scale-110 ease in duration-300 ">
-            <HiOutlineChevronDoubleUp
-              className="m-auto primary-color"
-              size={30}
-            />
-          </div>
-        </Link>
       </div>
     </div>
   );

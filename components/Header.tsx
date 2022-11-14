@@ -9,7 +9,7 @@ function Header() {
     setHamburgMenuClicked((current) => !current);
   };
   return (
-    <header className="sticky top-0 z-30 flex w-full h-21 items-center justify-between bg-transparent  ">
+    <header className="sticky top-0 z-30 flex w-full h-21 items-center justify-between  ">
       <div className="flex items-center justify-center md:w-1/5">
         <Link href="/">
           <div className="relative">
@@ -37,6 +37,16 @@ function Header() {
         <li>
           <a className="headerLink" href="/#about">
             About
+          </a>
+        </li>
+        <li>
+          <a className="headerLink" href="/services">
+            Services
+          </a>
+        </li>
+        <li>
+          <a className="headerLink" href="/prices">
+            Prices
           </a>
         </li>
         <li>

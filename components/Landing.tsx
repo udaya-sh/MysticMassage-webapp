@@ -5,7 +5,7 @@ import Button from "./Button";
 export default function Landing() {
   return (
     <section className="sticky top-0 mx-auto flex h-[100vh] max-w-[1350px] items-center justify-between px-9  ">
-      <div className="space-y-8">
+      <div className="space-y-8 mt-[100px] ">
         <h1 className="space-y-3 text-4xl font-semibold tracking-wide md:text-5xl lg:text-6xl text-opacity-25 text-color ">
           <span className="text-transparent bg-gradient-to-r from-[#f0d8d8] to-[#E65728] bg-clip-text uppercase ">
             Healing

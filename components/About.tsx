@@ -12,11 +12,14 @@ const About = () => {
           About
         </h1>
         <p className="text-[20px]  ">
-          Mystic Massage London specialises in healing of body and mind. It
-          provides abundunce of services for it's client. It is possible because
-          of our team. Our Team consits of massage therapist are expert in this
-          field of work. Because of their expirince, they have the abilities to
-          perform the mystic art of massage.
+          Massage is a relaxing and invigorating therapy that helps in relaxing
+          major muscle groups and ease away most pain by manipulation of soft
+          tissue. You can have massage delivered at home, hotel or office. With
+          mystic mobile massage in London, the therapist can travel anywhere in
+          the city and be with you within a couple of hours (depending on
+          availability and distance) so please book in advance. Few of our
+          therapists can host as well. Please text, call or WhatsApp to make an
+          appointment for treatment.
         </p>
         <div></div>
       </div>
