@@ -8,7 +8,7 @@ const About = () => {
     >
       <div className="max-w-[1240px] md:w-[600px] gap-8 text-color ">
         <div className=""></div>
-        <h1 className=" text-left text-[50px] py-4 my-4 primary-color uppercase ">
+        <h1 className=" text-left text-[50px] py-4 my-4 primary-color uppercase font-extrabold  ">
           About
         </h1>
         <p className="text-[20px]  ">

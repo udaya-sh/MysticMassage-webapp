@@ -9,6 +9,7 @@ import "swiper/css";
 import About from "../components/About";
 import Therapists from "../components/Therapists";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
+import Navbar from "./../components/Navbar";
 
 interface Props {
   posts: Post[];
@@ -26,11 +27,12 @@ export default function ({ posts }: Props) {
         <title>Mystic Massage London</title>
         <link rel="icon" href="/logo-color.svg" />
       </Head>
+
       <div className="relative h-[200vh]">
         <video
           id="myVideo"
-          autoPlay
           muted
+          autoPlay
           loop
           className="object-cover h-full  opacity-90 "
         >
@@ -38,7 +40,6 @@ export default function ({ posts }: Props) {
         </video>
 
         <div className="content ">
-          <Header />
           <Landing />
         </div>
       </div>

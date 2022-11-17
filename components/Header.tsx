@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import styles from "./Header.module.css";
 
 function Header() {
   const [hamburgMenuClicked, setHamburgMenuClicked] = useState(false);
@@ -28,7 +27,7 @@ function Header() {
       <label className="menu-button-container" htmlFor="menu-toggle">
         <div className="menu-button"></div>
       </label>
-      <ul className="menu hidden items-center space-x-20 justify-center md:flex mx-10">
+      <ul className="menu hidden items-center space-x-20 justify-center md:flex mx-10 py-5 ">
         <li>
           <a href="/" className="headerLink">
             Home
