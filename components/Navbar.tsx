@@ -42,7 +42,7 @@ const Navbar = () => {
             <Link href="/#therapists">
               <li className=" headerLink ">Therapists</li>
             </Link>
-            <Link href="/contact">
+            <Link href="/Contact">
               <li className=" headerLink ">Contact</li>
             </Link>
           </ul>
@@ -107,7 +107,7 @@ const Navbar = () => {
                 <Link href="/#therapists">
                   <li onClick={handleNav}>Therapists</li>
                 </Link>
-                <Link href="/contact">
+                <Link href="/Contact">
                   <li onClick={handleNav}>Contact</li>
                 </Link>
               </ul>
