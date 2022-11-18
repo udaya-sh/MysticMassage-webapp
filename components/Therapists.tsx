@@ -27,7 +27,7 @@ const Therapists = ({ posts }: Props) => {
                     <SwiperSlide>
                       <img
                         src={urlFor(resource).url()!}
-                        className="w-full h-full aspect-square "
+                        className="w-full aspect-square object-cover  "
                         alt={post.slug.current}
                       />
                     </SwiperSlide>
