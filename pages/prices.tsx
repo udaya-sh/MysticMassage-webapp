@@ -10,60 +10,58 @@ const prices = () => {
         <h1 className="text-[50px] py-20 my-4 primary-color uppercase font-extrabold ">
           Prices
         </h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-3 md:gap-6 p-2 md:p-6 ">
-          <div className=" md:w-[500px] h-screen md:hover:scale-105 transition-transform duration-200 ease-in-out md:mr-20 md:mb-10 md:hover:border-[1px] border-[#E65728] rounded-lg cursor-pointer overflow-hidden">
-            <div className=" flex justify-between p-5 bg-[#252422]">
-              <div>
-                <p className=" text-[40px] text-color text-center font-bold   ">
-                  Minutes
-                </p>
-              </div>
-              <div>
-                <p className=" text-[40px] text-color text-center font-bold   ">
-                  Price
-                </p>
-              </div>
-            </div>{" "}
-            <div className=" flex justify-between p-5 bg-[#252422]">
-              <div>
-                <p className=" text-[30px] text-color text-center font-bold   ">
-                  60 min
-                </p>
-              </div>
-              <div>
-                <p className=" text-[30px] text-color text-center font-bold   ">
-                  70£
-                </p>
-              </div>
+        <div className=" md:w-[90%] px-5 h-screen m md:mr-20 md:mb-10  overflow-hidden">
+          <div className=" flex justify-between p-5 bg-[#252422]">
+            <div>
+              <p className=" text-[30px] text-color text-center font-bold   ">
+                Minutes
+              </p>
             </div>
-            <div className=" flex justify-between p-5 bg-[#252422]">
-              <div>
-                <p className=" text-[30px] text-color text-center font-bold   ">
-                  90 min
-                </p>
-              </div>
-              <div>
-                <p className=" text-[30px] text-color text-center font-bold   ">
-                  90£
-                </p>
-              </div>
-            </div>{" "}
-            <div className=" flex justify-between p-5 bg-[#252422]">
-              <div>
-                <p className=" text-[30px] text-color text-center font-bold   ">
-                  120 min
-                </p>
-              </div>
-              <div>
-                <p className=" text-[30px] text-color text-center font-bold   ">
-                  130£
-                </p>
-              </div>
+            <div>
+              <p className=" text-[30px] text-color text-center font-bold   ">
+                Price
+              </p>
             </div>
-            <p className=" text-[30px] text-color text-center font-bold   ">
-              Each booking additional 30£ for expenses.
-            </p>
+          </div>{" "}
+          <div className=" flex justify-between p-5 bg-[#252422]">
+            <div>
+              <p className=" text-[20px] text-color text-center font-bold   ">
+                60 min
+              </p>
+            </div>
+            <div>
+              <p className=" text-[20px] text-color text-center font-bold   ">
+                70£
+              </p>
+            </div>
           </div>
+          <div className=" flex justify-between p-5 bg-[#252422]">
+            <div>
+              <p className=" text-[20px] text-color text-center font-bold   ">
+                90 min
+              </p>
+            </div>
+            <div>
+              <p className=" text-[20px] text-color text-center font-bold   ">
+                90£
+              </p>
+            </div>
+          </div>{" "}
+          <div className=" flex justify-between p-5 bg-[#252422]">
+            <div>
+              <p className=" text-[20px] text-color text-center font-bold   ">
+                120 min
+              </p>
+            </div>
+            <div>
+              <p className=" text-[20px] text-color text-center font-bold   ">
+                130£
+              </p>
+            </div>
+          </div>
+          <p className=" text-[20px] text-color text-center font-bold   ">
+            Each booking additional 30£ for expenses.
+          </p>
         </div>
       </div>
     </div>

@@ -21,11 +21,11 @@ export default function ({ posts }: Props) {
       <Head>
         <meta
           name="description"
-          content="Online massage services in London. Mystical massage service in London with excellent services of therapist with ecperstise in healing. "
+          content="Online mobile massage services in London. Hayati Mobile Massage located in London with excellent services of therapist with experstise in healing of body and mind. "
         />
 
-        <title>Mystic Massage London</title>
-        <link rel="icon" href="/logo-color.svg" />
+        <title>Hayati Mobile Massage </title>
+        <link rel="icon" href="/logo-transparent.svg" />
       </Head>
 
       <div className="relative h-[200vh]">

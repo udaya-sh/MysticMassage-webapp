@@ -16,16 +16,16 @@ var options = {
     position: "right",
   },
   brandSetting: {
-    brandName: "Mystic Massage London",
+    brandName: "Hayati Mobile Massage",
     brandSubTitle: "Heal your body and mind",
-    brandImg: "https://purgatory-massage.co.uk/logo-transparent.svg",
+    brandImg: "logo-transparent.svg",
     welcomeText: "Hi there!\nHow can I help you?",
     messageText: "Hello, I would like to book an appointment!",
     backgroundColor: "#222222",
     ctaText: "Start Chat",
     borderRadius: "25",
     autoShow: false,
-    phoneNumber: "447495094696",
+    phoneNumber: "447415720279",
   },
 };
 s.onload = function () {
